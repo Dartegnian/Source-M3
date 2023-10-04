@@ -51,7 +51,7 @@ function hbs(done) {
 
 function css(done) {
     pump([
-        src('assets/css/screen.css', {sourcemaps: true}),
+        src('assets/css/*.css', {sourcemaps: true}),
         postcss([
             easyimport,
             autoprefixer(),
@@ -64,7 +64,7 @@ function css(done) {
 
 function scss(done) {
     pump([
-        src('assets/sass/*.scss', {sourcemaps: true}),
+        src('assets/scss/*.scss', {sourcemaps: true}),
         sass(),
         dest('assets/built/', {sourcemaps: '.'}),
         livereload()
