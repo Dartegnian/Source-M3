@@ -1,6 +1,11 @@
 @import "material-you";
 @import "fonts/font-material-symbols";
 
+@import "partials/borders";
+@import "partials/fonts";
+@import "partials/header";
+@import "partials/home";
+
 @media (prefers-reduced-motion: no-preference) {
     :root {
         scroll-behavior: smooth;

@@ -1,0 +1,15 @@
+.gh-header.is-highlight .gh-header-left .gh-card .gh-card-link {
+	@include material-container--secondary;
+	border-radius: $container-border-radius;
+	overflow: hidden;
+	gap: 0px;
+	
+	.gh-card-image {
+		border-radius: $container-border-radius;
+		overflow: hidden;
+	}
+
+	.gh-card-wrapper {
+		padding: $container-padding;
+	}
+}
