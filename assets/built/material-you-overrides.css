@@ -1,0 +1,118 @@
+.material-symbols-rounded {
+  font-size: 16px;
+  user-select: none;
+}
+
+.gh-header.is-highlight .gh-card:before,
+.gh-header.is-highlight .gh-header-left:after, .gh-header.is-highlight .gh-header-middle:after {
+  visibility: hidden;
+  background-color: transparent;
+}
+
+.gh-card {
+  transition: background 0.25s ease, color 0.25s ease;
+  color: var(--md-sys-color-on-tertiary-container);
+  background-color: var(--md-sys-color-tertiary-container);
+  border-radius: 32px;
+  overflow: hidden;
+}
+.gh-card .gh-card-wrapper {
+  padding: 24px 20.8px;
+}
+
+.gh-featured-feed .gh-card {
+  transition: background 0.25s ease, color 0.25s ease;
+  color: var(--md-sys-color-on-primary-container);
+  background-color: var(--md-sys-color-primary-container);
+}
+
+.gh-card-link {
+  gap: 0px;
+}
+
+.gh-card-title,
+.gh-card-excerpt {
+  color: var(--md-sys-color-on-tertiary-container);
+}
+
+.gh-card-image {
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.gh-card-meta {
+  color: var(--md-sys-color-on-primary-container);
+}
+
+.gh-header.is-highlight .gh-header-left .gh-card {
+  border-radius: 32px;
+  overflow: hidden;
+  padding: 0rem;
+}
+
+.gh-header.is-highlight .gh-header-left .gh-card .gh-card-link {
+  transition: background 0.25s ease, color 0.25s ease;
+  color: var(--md-sys-color-on-secondary-container);
+  background-color: var(--md-sys-color-secondary-container);
+  gap: 0px;
+}
+.gh-header.is-highlight .gh-header-left .gh-card .gh-card-link .gh-card-title,
+.gh-header.is-highlight .gh-header-left .gh-card .gh-card-link .gh-card-excerpt {
+  color: var(--md-sys-color-on-secondary-container);
+}
+.gh-header.is-highlight .gh-header-left .gh-card .gh-card-link .gh-card-wrapper {
+  padding: 24px 20.8px;
+}
+
+.has-sans-title :is(.is-title, .gh-content :is(h2, h3)) {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.gh-navigation {
+  transition: background 0.25s ease, color 0.25s ease;
+  color: var(--md-sys-color-on-primary-container);
+  background-color: var(--md-sys-color-primary-container);
+}
+
+.gh-featured-title,
+.gh-container-title {
+  color: var(--md-sys-color-primary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+::-webkit-scrollbar {
+  transition: background 0.25s ease, color 0.25s ease;
+  background: #23005c;
+  background: var(--md-sys-color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  transition: background 0.25s ease, color 0.25s ease;
+  border-radius: 32px;
+  background: #e9ddff;
+  background: var(--md-sys-color-inverse-surface);
+}
+
+::selection {
+  transition: background 0.25s ease, color 0.25s ease;
+  background: #23005c;
+  color: #e9ddff;
+  background: var(--md-sys-color-inverse-surface);
+  color: var(--md-sys-color-inverse-on-surface);
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--md-sys-color-background);
+}
+
+.light-theme, .dark-theme {
+  transition: background 0.25s ease, color 0.25s ease;
+}
+/*# sourceMappingURL=material-you-overrides.css.map */
