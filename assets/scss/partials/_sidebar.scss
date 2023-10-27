@@ -1,0 +1,18 @@
+.gh-container.has-sidebar .gh-sidebar {
+	@include material-container--secondary;
+	border-radius: $container-border-radius;
+}
+
+.gh-about {
+	background-color: transparent;
+}
+
+.gh-sidebar {
+	.gh-button {
+		@include material-container--tertiary;
+		border: none;
+		border-radius: $container-border-radius;
+		padding: 1rem 2rem;
+		font-weight: normal;
+	}
+}

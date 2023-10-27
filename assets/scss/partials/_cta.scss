@@ -1,0 +1,20 @@
+.gh-cta-inner {
+	@include material-container--tertiary;
+	border-radius: $container-border-radius;
+}
+.gh-form-input {
+	@include material-basic--secondary;
+	border: none;
+	border-radius: $container-border-radius;
+    padding: 1rem 2rem;
+}
+
+.gh-form {
+	.gh-button {
+		@include material-container--secondary;
+		border: none;
+		border-radius: $container-border-radius;
+		padding: 1rem 2rem;
+		font-weight: normal;
+	}
+}

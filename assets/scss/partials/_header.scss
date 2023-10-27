@@ -1,3 +1,8 @@
 .gh-navigation {
 	@include material-container--primary;
 }
+
+.gh-navigation-members .gh-button {
+	@include material-button--filled-secondary;
+	font-weight: normal;
+}
