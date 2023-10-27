@@ -16,3 +16,18 @@
 		aspect-ratio: 16/7;
 	}
 }
+
+.gh-header.is-highlight .gh-featured {
+	height: 100%;
+}
+
+.gh-featured-inner {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.gh-header.is-highlight .gh-featured-feed {
+	justify-content: space-around;
+	flex-grow: 1;
+}
