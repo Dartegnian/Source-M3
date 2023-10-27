@@ -2,3 +2,17 @@
 .gh-container-title {
 	color: #{var(--md-sys-color-primary)};
 }
+
+.gh-container.is-list .gh-card-image {
+	flex-grow: 1;
+}
+
+.gh-featured-title {
+	padding-bottom: 0rem;
+}
+
+.gh-header-middle {
+	.gh-card-image {
+		aspect-ratio: 16/7;
+	}
+}
